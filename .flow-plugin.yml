@@ -1,0 +1,21 @@
+
+name: nodejs_build
+version: 0.0.1
+language: nodejs
+description: Nodejs build task
+public: true
+tags:
+  - nodejs
+  - build
+inputs:
+  - name: FLOW_ENABLE_FAILURE
+    editable: true
+    options:
+      - TRUE
+      - FALSE
+outputs:
+script_path: ./run.sh  
+  
+template: |  
+  
+  
