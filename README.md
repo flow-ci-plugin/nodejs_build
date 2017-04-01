@@ -14,6 +14,5 @@ steps:
     failure: true
     plugin:
       name: nodejs_build
-      inputs:
-        - FLOW_ENABLE_FAILURE=$FLOW_ENABLE_FAILURE
+
 ```
